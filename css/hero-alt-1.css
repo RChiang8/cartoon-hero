@@ -3,8 +3,15 @@ html, body{
 	margin: 0;
 }
 
+body{
+	background-color: #80aaff;
+	color: blue;
+}
+
 header{
 	background-color: #809fff;
+	background-image: url('../img/background.png');
+	background-repeat: repeat;
 	padding: 40px;
 	text-align: center;
 }
@@ -12,17 +19,23 @@ header{
 h1{
 	font-size: 90px;
 	color: white;
+	text-shadow: 0 4px 20px black;
+	margin: 0;
+	text-transform: uppercase;
 }
 
 header img{
 	border-radius: 300px;
 	border: 15px solid #e6e6e6;
+	box-shadow: 0 10px 20px black;
 }
 
 .content{
-	max-width: 900px;
+	text-align: center;
+	max-width: 950px;
 	margin: 0 auto;
 	padding: 0 20px;
+	font-size: 20px;
 }
 
 img.big-image{
@@ -31,8 +44,9 @@ img.big-image{
 
 p.caption{
 	font-size: 16px;
-	color: lightgrey;
+	color: grey;
 	font-style: italic;
+	text-align: right;
 }
 
 ul{
@@ -49,7 +63,8 @@ a{
 footer{
 	margin-top: 20px;
 	padding: 40px 20px;
-	background-color: lightgrey;
+	background-color: #809fff;
+	color: black;
 }
 
 footer ul{
@@ -59,4 +74,8 @@ footer ul{
 footer ul li{
 	display: inline;
 	margin: 0 5px;
+}
+
+.content ul{
+	padding-bottom: 90px;
 }
